@@ -17,7 +17,7 @@ import java.util.List;
 public class TaskController {
     
     /**
-     * MÃ©todo para salvar novas tasks no banco de dados.
+     * Métodos para salvar novas tasks no banco de dados.
      * @param task;
      */
     public void save(Task task) {
