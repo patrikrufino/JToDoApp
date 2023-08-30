@@ -180,7 +180,7 @@ public class TaskController {
                 tasks.add(task);
 
             }
-        } catch (Exception e) {
+        } catch (SQLException e) {
 
             throw new RuntimeException("Erro ao buscar tarefas" + e.getMessage(), e);
 

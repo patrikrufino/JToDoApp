@@ -114,7 +114,7 @@ public class ProjectController {
 
     public List<Project> getAll(int idProject) {
 
-        String sql = "SELECT * FROM projects WHERE id = ?";
+        String sql = "SELECT * FROM projects";
 
         Connection connection = null;
         PreparedStatement statement = null;
